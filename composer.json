@@ -1,0 +1,27 @@
+{
+  "name": "depositary/data-mapper",
+  "type": "library",
+  "homepage": "https://github.com/depositary/data-mapper",
+  "require": {
+    "php": "~8.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~9.5"
+  },
+  "authors": [
+    {
+      "name": "Petr Kovalev",
+      "email": "dev-null@kovalev.pw"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Depository\\DataMapper\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Depository\\DataMapper\\Tests\\": "tests/"
+    }
+  }
+}
